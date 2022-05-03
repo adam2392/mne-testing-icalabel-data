@@ -36,7 +36,7 @@ Add or change files in the repo for use with MNE
    
       1. Downloading and running `md5sum` on this (with the proper version number):
 
-          https://codeload.github.com/mne-tools/mne-testing-data/tar.gz/0.53
+          https://codeload.github.com/mne-tools/mne-testing-icalabel-data/tar.gz/0.01
 
          or
 
