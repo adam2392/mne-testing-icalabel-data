@@ -5,9 +5,6 @@
 % cropped between 0 and 10 seconds. Before computing ICA, the data has
 % been re-referenced to a common average.
 
-% ----------------------------------------------
-% sha1: 1137c8156c92427e4eac3420561f4226c7d1a9ab
-% ----------------------------------------------
 
 % Load
 file_dataset = 'eeglab2022.0/sample_data/eeglab_data.set';
@@ -46,9 +43,6 @@ ica = read_ica_eeglab(fname)
 % cropped between 0 and 10 seconds. Before computing ICA, the data has
 % been re-referenced to a common average.
 
-% ----------------------------------------------
-% sha1: 71c05706ac5531ae19fbc0235ddd71e089d8e82b
-% ----------------------------------------------
 
 % Load
 file_dataset = 'eeglab2022.0/sample_data/eeglab_data.set';
@@ -87,9 +81,6 @@ ica = read_ica_eeglab(fname)
 % cropped between 0 and 10 seconds. Before computing ICA, the data has
 % been re-referenced to a common average.
 
-% ----------------------------------------------
-% sha1: 5a65b589530af23c6db598627e552567440bdb2c
-% ----------------------------------------------
 
 % Load
 file_dataset = 'eeglab2022.0/sample_data/eeglab_data.set';
@@ -130,9 +121,6 @@ ica = read_ica_eeglab(fname)
 % Before computing ICA, the data has been re-referenced to a common
 % average.
 
-% ----------------------------------------------
-% sha1: 92aa789f6012b3b58ba7dd5be3a99d0a99e9c6e5
-% ----------------------------------------------
 
 % Load
 file_dataset = 'eeglab2022.0/sample_data/eeglab_data.set';
@@ -175,9 +163,6 @@ ica = read_ica_eeglab(fname)
 % Before computing ICA, the data has been re-referenced to a common
 % average.
 
-% ----------------------------------------------
-% sha1: f2dcf3481ec3ad24350bd99f5945a5016e1f547c
-% ----------------------------------------------
 
 % Load
 file_dataset = 'eeglab2022.0/sample_data/eeglab_data.set';

@@ -1,18 +1,6 @@
-% The files 'constants-long-epo.mat', 'psd-step-by-step-long-epo.mat' and 
-% 'psd-long-epo.mat' were obtained from the sample EEGLAB dataset 
-% 'sample-epo.set'.
-
-% 'constants-epo.mat' --------------------------
-% sha1: 
-% ----------------------------------------------
-
-% 'psd-step-by-step-epo.mat' -------------------
-% sha1: 
-% ----------------------------------------------
-
-% 'psd-epo.mat' --------------------------------
-% sha1: 
-% ----------------------------------------------
+% The files 'constants-long-epo.mat', 'psd-step-by-step-long-epo.mat' and
+% 'psd-long-epo.mat' were obtained from the sample EEGLAB dataset
+% 'sample-long-epo.set'.
 
 
 % Load

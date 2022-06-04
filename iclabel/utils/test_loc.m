@@ -3,9 +3,6 @@
 % The file 'loc-raw.mat' was obtained from the 'sample-raw.set' dataset and
 % contains the 'th' and 'rd' electrode coordinates.
 
-% ----------------------------------------------
-% sha1: 3c1cce887f635102c576e2d282d353c3686861c9
-% ----------------------------------------------
 
 EEG = pop_loadset('sample-raw.set');
 EEG = eeg_checkset(EEG);
@@ -24,9 +21,6 @@ save('loc-raw', 'loc');
 % The file 'loc-epo.mat' was obtained from the 'sample-epo.set' dataset and
 % contains the 'th' and 'rd' electrode coordinates.
 
-% ----------------------------------------------
-% sha1: 3c1cce887f635102c576e2d282d353c3686861c9
-% ----------------------------------------------
 
 EEG = pop_loadset('sample-epo.set');
 EEG = eeg_checkset(EEG);

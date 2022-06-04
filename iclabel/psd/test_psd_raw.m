@@ -1,18 +1,5 @@
-% The files 'constants-raw.mat', 'psdmed-raw.mat',
-% 'psd-step-by-step-raw.mat' and 'psd-raw.mat' were obtained from the
-% sample EEGLAB dataset 'sample-raw.set'.
-
-% 'constants-raw.mat' --------------------------
-% sha1: 72f7f1260a5b294f9b79b9d65c4a83f207a71305
-% ----------------------------------------------
-
-% 'psd-step-by-step-raw.mat' -------------------
-% sha1: 9266c1002174a22ec5237f5d892e2fde937fc552
-% ----------------------------------------------
-
-% 'psd-raw.mat' --------------------------------
-% sha1: 9266c1002174a22ec5237f5d892e2fde937fc552
-% ----------------------------------------------
+% The files 'constants-raw.mat', 'psd-step-by-step-raw.mat' and 'psd-raw.mat'
+% were obtained from the sample EEGLAB dataset 'sample-raw.set'.
 
 
 % Load
