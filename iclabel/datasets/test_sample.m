@@ -192,7 +192,7 @@ pop_saveset(EEG, 'filename', 'sample-long-epo.set', 'savemode', 'onefile');
 from mne import read_epochs_eeglab
 from mne.preprocessing import read_ica_eeglab
 
-fname = 'sample-epo.set'
+fname = 'sample-long-epo.set'
 epochs= mne.read_epochs_eeglab(fname)
 ica = read_ica_eeglab(fname)
 %}
