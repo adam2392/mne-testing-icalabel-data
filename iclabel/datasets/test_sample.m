@@ -169,9 +169,13 @@ file_dataset = 'eeglab2022.0/sample_data/eeglab_data.set';
 EEG = pop_loadset(file_dataset);
 EEG = eeg_checkset(EEG);
 
+% Remove most events to prevent creating epochs including multiple events
+EEG.event = EEG.event(~strcmp({EEG.event.type}, 'square'));
+EEG.event = EEG.event((1:4:length(EEG.event)));
+
 % Create epochs (trials)
 [events, number] = eeg_eventtypes(EEG);
-EEG = pop_epoch(EEG, {'rt'}, [0, 4]);
+EEG = pop_epoch(EEG, {}, [0, 4]);
 
 % Drop non-EEG channel and crop dataset
 idx = eeg_chaninds(EEG, {'EOG1', 'EOG2'});
