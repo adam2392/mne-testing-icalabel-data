@@ -1,18 +1,5 @@
-% The files 'constants-epo.mat', 'psdmed-epo.mat',
-% 'psd-step-by-step-epo.mat' and 'psd-epo.mat' were obtained from the
-% sample EEGLAB dataset 'sample-epo.set'.
-
-% 'constants-epo.mat' --------------------------
-% sha1: db06642036533b9fea56d5df8eb86e1cc600df28
-% ----------------------------------------------
-
-% 'psd-step-by-step-epo.mat' -------------------
-% sha1: 538ea4b7026b23ef1d6a8566ac537c8a587b5dbf
-% ----------------------------------------------
-
-% 'psd-epo.mat' --------------------------------
-% sha1: 538ea4b7026b23ef1d6a8566ac537c8a587b5dbf
-% ----------------------------------------------
+% The files 'constants-epo.mat', 'psd-step-by-step-epo.mat' and 'psd-epo.mat'
+% were obtained from the sample EEGLAB dataset 'sample-epo.set'.
 
 
 % Load

@@ -2,9 +2,6 @@
 % obtained with the matconvnet version of the ICLabel neural network when
 % 'network_input.mat' is provided.
 
-% ----------------------------------------------
-% sha1: 8ba86f9daea653b8b6925ba09f4a87c69864d38b
-% ----------------------------------------------
 
 % Load inputs
 load('network_input.mat');

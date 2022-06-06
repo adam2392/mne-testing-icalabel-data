@@ -1,9 +1,10 @@
-% The files 'constants-raw.mat', 'psd-step-by-step-raw.mat' and 'psd-raw.mat'
-% were obtained from the sample EEGLAB dataset 'sample-raw.set'.
+% The files 'constants-long-epo.mat', 'psd-step-by-step-long-epo.mat' and
+% 'psd-long-epo.mat' were obtained from the sample EEGLAB dataset
+% 'sample-long-epo.set'.
 
 
 % Load
-EEG = pop_loadset('sample-raw.set');
+EEG = pop_loadset('sample-long-epo.set');
 EEG = eeg_checkset(EEG);
 
 % Calculate ICA activations
@@ -47,7 +48,7 @@ constants = struct(...
     'index', index, ...
     'window', window, ...
     'subset', subset);
-save('constants-raw', 'constants');
+save('constants-long-epo', 'constants');
 
 
 %% calculate windowed spectrums
@@ -93,13 +94,13 @@ psd = single(permute(psd, [3 2 4 1]));
 
 
 %% Export psd
-save('psd-step-by-step-raw', 'psd')
+save('psd-step-by-step-long-epo', 'psd')
 
 
 %% Re-create psd feature by using 'eeg_rpsd' directly
 
 % Load
-EEG = pop_loadset('sample-raw.set');
+EEG = pop_loadset('sample-long-epo.set');
 EEG = eeg_checkset(EEG);
 
 % Calculate ICA activations
@@ -134,4 +135,4 @@ psd = single(permute(psd, [3 2 4 1]));
 
 
 %% Export psd
-save('psd-raw', 'psd')
+save('psd-long-epo', 'psd')
